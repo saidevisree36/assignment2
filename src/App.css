@@ -26,17 +26,18 @@ body {
 }
 .bg-container{
   background-color: #9ba9eb;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 20px;
+  background-size: cover;
 }
 .app-logo{
-  height: 25px;
-  width: 25px;
-  padding: 20px;
+  height: 100px;
+  width: 200px;
 }
 
  @media screen and (min-width: 768px){
@@ -45,21 +46,22 @@ body {
     width: 60vw;
     background-color: #454f84;
     margin: 30px;
+    margin-top: 25px;
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
   }
   .password-manger1{
-    height: 100px;
-    width: 200px;
+    height: 300px;
+    width: 500px;
   }
 .password-manger{
   display: none;
 }
-.form{
-  height:400px;
-  width: 600px;
+.add-details{
+  height:250px;
+  width: 400px;
   border-radius: 15px;
   background-color: #5763a5;
   display: flex;
@@ -67,43 +69,55 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 15px;
+  margin-left: 15px;
 }
 .heading{
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Roboto";
   font-weight: 500;
+  margin-left: 10px;
 }
-.website-input{
-  height: 30px;
+.website-input-container{
+  height: 60px;
   width: 250px;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   border-radius: 5px;
   background-color: #ffffff;
+  margin-bottom: 10px;
+  margin-left: 15px;
   padding: 10px;
-  margin-bottom: 15px;
+
 }
 .wediste-logo{
   height: 20px;
   width:20px;
 }
 .input-value{
+  height: 20px;
+  width: 100px;
   color: #94a3b8;
   font-size: 15px;
   font-family:"Roboto";
+  border:none;
+  outline: none;
 }
-.button{
-  height: 20px;
-  width: 50px;
+.but-name{
+  height: 100px;
+  width: 60px;
   background-color: #0b69ff;
   font-size: 15px;
   font-family: "Roboto";
   color: #ffffff;
-  margin-left:25px;
+  margin-left:250px;
+  border: 1px solid #0b69ff;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 .bottom-card-container{
-  height: 40vh;
+   height: 50vh;
     width: 60vw;
     background-color: #454f84;
     margin: 30px;
@@ -113,6 +127,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 15px;
+    padding: 10px;
 }
 .password-search-container{
   display: flex;
@@ -126,41 +141,46 @@ body {
   font-weight: 500;
 }
 .span-count{
-  height: 10px;
-  width: 20px;
+  height: 50px;
+  width: 70px;
   background-color: transparent;
   border: 1px solid #94a3b8;
   font-size: 10px;
 }
-.website-input{
-  height: 20px;
-  width: 100px;
+.website-input1{
+  background-color: #ffffff;
+  height: 50px;
+  width: 250px;
   padding: 15px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.search-input{
-  height: 20px;
-  width: 20px;
-}
-.search-input{
-  color: #94a3b8;
-  font-size: 15px;
-  font-family:"Roboto";
-}
-.hr-line{
-  height: 10px;
-  width: 600px;
-  color: #c3caea;
-}
-.show-password{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-left: 350px;
+}
+.search-input1{
+  height: 30px;
+  width: 20px;
+}
+.search-input{
+  height: 30px;
+  color: #94a3b8;
+  font-size: 15px;
+  font-family:"Roboto";
+  border:none;
+  outline:none;
+}
+.hr-line{
+  width: 800px;
+  color: #c3caea;
+}
+.show-password-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 600px;
 }
 .check-box{
-  height: 10px;
+  height: 20px;
   width: 20px;
 }
 .label-value{
